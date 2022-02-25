@@ -1,13 +1,17 @@
+
+/*All elements calculated width and height properties */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Body background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Padding 20px top, right, bottom, left. Font and color are changed and background color is set.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/*Targeting header h1 inline allows it to not start a new line and block keeps the top/bottoms padding and margins calculated.*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*.seo text color.*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*nav font and font size changed, pushing 15px from the top and pushing 20px from the right, and floating content to the right allowing other content to the left.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ header nav {
     font-size: 20px;
 }
 
+/*ul removes the markers from the list.*/
 header nav ul {
     list-style-type: none;
 }
 
+/*li allowed to stay on the same line and spaces 25px on the left to separate them.*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Color of text and link underline removed.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Font size changed*/
 p {
     font-size: 16px;
 }
 
+/*Image has max set, cover tell the image to stay in set dimentions and centered, bottom margin gives 25px spacing.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +71,19 @@ p {
     background-position: center;
 }
 
+/*image floats left to allow content to fill the right.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*image floats right to allow content to fill the right.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/**/
 .content {
     width: 75%;
     display: inline-block;
