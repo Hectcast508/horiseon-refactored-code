@@ -90,7 +90,8 @@ p {
     margin-left: 20px;
 }
 
-/**/
+/*benefits are pushed to the right side to allow content to fill the left side, margin-right keeps from touch the edge of the page, padding on all side spacing between content and border,font family changed and background color changed, 
+max hieght and width are set.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,22 +103,27 @@ p {
     background-color: #2589bd;
 }
 
+/*set margin-bottom of each div to space them apart, color of text changed to white.*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Text is center and margin-bottom spaces each element.*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*img takes up all the width, margin top/bottom are set to 10px and right/left are evenly split, and total width is 150px.*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*font changed,text color changed to white along with the background, total height set to 300px, padding between content and border is 50px, and margin-bottom space is 20px to space out 
+the information.*/
 .content-info {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,15 +133,18 @@ p {
     color: #ffffff;
 }
 
+/*max height is set to 200px*/
 .content-info img {
     max-height: 200px;
 }
 
+/*font size changed and information spaced out from the bottom margin being set to 20px.*/
 .content-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*font changed and centered, space between the content and border is set to 30px*/
 footer {
     padding: 30px;
     clear: both;
@@ -143,6 +152,7 @@ footer {
     text-align: center;
 }
 
+/*font size changed*/
 footer h2 {
     font-size: 20px;
 }
